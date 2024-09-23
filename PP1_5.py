@@ -1,18 +1,39 @@
-
+'''
+Lesso: Typecasting
+Author: Mansoor Muhamamd
+Date Last Modified: September 23, 2024
+'''
 def q1():
-  #Write Assignment code here
+  wondr = input("type a number: ")
+  wondr = int(wondr)
+
+  print("{intwondr} + 3 ")
+
 
 def q2():
-  #Write Assignment code here
+  wicker = input("Insert a number: ")
+  wicker = float(wicker)
+
+  print("{floatwicker} + 4")
+
 
 def q3():
-  #Write Assignment code here
+  id = input("input radius: ")
+  id = float(id)
+  print(id*id*3.14)
+
 
 def q4():
-  #Write Assignment code here
+  did = input("Input a number: ")
+  did = float(did)
+  did = int(did*12)
+  print(did)
 
 def q5():
-  #Write Assignment code here
+  new = input("What is your number: ")
+  new = int(new)
+
+  print(f"your number + 5 is {new  + 5}")
 
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
