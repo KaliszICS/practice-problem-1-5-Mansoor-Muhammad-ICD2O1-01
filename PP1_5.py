@@ -4,21 +4,19 @@ Author: Mansoor Muhamamd
 Date Last Modified: September 23, 2024
 '''
 def q1():
-  wondr = input("type a number: ")
-  wondr = int(wondr)
-
-  print("{intwondr} + 3 ")
+  wondr = input("Input an integer: ")
+  wondr = int(wondr + 3)
+  print(wondr)
 
 
 def q2():
-  wicker = input("Insert a number: ")
-  wicker = float(wicker)
-
-  print("{floatwicker} + 4")
+  wicker = input("Input a number: ")
+  wicker = float(str(wicker) + "4") + 2
+  print(wicker)
 
 
 def q3():
-  id = input("input radius: ")
+  id = input("Input a radius: ")
   id = float(id)
   print(id*id*3.14)
 
@@ -30,16 +28,16 @@ def q4():
   print(did)
 
 def q5():
-  new = input("What is your number: ")
-  new = int(new)
-
-  print(f"your number + 5 is {new  + 5}")
+  new = input("Input an integer: ")
+  new = int(new + 5)
+  print(f"Your number + 5 is {new}")
 
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
-
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
